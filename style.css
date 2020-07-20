@@ -1,0 +1,69 @@
+html{
+  min-height: 100%;
+}
+h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-size: 24px;     
+  font-style: normal; 
+  font-weight: bold; 
+  color:purple;
+  text-align: left; 
+
+ }
+ table{
+   margin-top: 45px;
+   margin-bottom: 45px;
+   padding-bottom: 30px;
+  font-family: verdana; 
+  color:black; 
+  font-size: 16px; 
+  font-style: normal;
+  background:white;
+  border-collapse: collapse; 
+  padding: 20px;
+  width: 400px;
+  height: 150px;
+  border-radius: 15px;
+ }
+ table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
+ table.inner{
+  border: 10px
+ }
+ input[type=text], input[type=email], input[type=number],input[type=password]{
+  width: 100%;
+  padding: 6px 12px;
+  margin: 5px 0;
+  box-sizing: border-box;
+ }
+ input[type=submit], input[type=reset]{
+  width: 50%;
+  padding: 8px 12px;
+  margin: 5px 0;
+  background-color:palevioletred; 
+ }
+  
+ img {
+  border-radius: 50%;
+  width:125px;
+  height:125px;
+}
+
+body {
+background: url(https://ak.picdn.net/shutterstock/videos/14681011/thumb/1.jpg) no-repeat  ;
+height: 100%;
+background-size: cover;
+ }
+
+ a {
+   font-style: inherit;
+   text-decoration: none;
+   color:black;
+ }
+
+ a:hover {
+  text-decoration: underline;
+  color:purple;
+}

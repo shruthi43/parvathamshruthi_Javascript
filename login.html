@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epam register page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="loginjs.js"></script>
+</head>
+<body>
+<form name = "myForm" onsubmit = "return(validate());">
+    <table align="center" cellpadding = "10">
+       <tr> <td><img src="https://c8.alamy.com/comp/FPHC6G/login-icon-internet-button-on-white-background-FPHC6G.jpg"></td><td><h2>Epam Login</h2></tr></td>
+   
+    <td>Email ID</td>
+    <td><input type="email" name="EmailID" maxlength="100" /></td>
+    </tr>
+    
+    <tr>
+        <td>Password</td>
+        <td>
+        <input type="password" name="password" minlength="8"/>
+        </td>
+        </tr>
+    <tr>
+        <td colspan="2" align="center">
+        <input type="submit" value="Login"><br>
+        <a href="register.html" >New user? Register Here</a>
+        </td>
+        </tr>
+    </table>
+    </form>
+    </body>
+</html>
